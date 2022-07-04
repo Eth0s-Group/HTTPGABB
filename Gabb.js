@@ -83,7 +83,7 @@ function main() {
     });
     server.on('error', err => {
         console.log(err);
-    }
+    });
     server.listen(80);
 }
 function main2() {
